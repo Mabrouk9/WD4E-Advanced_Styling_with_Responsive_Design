@@ -51,7 +51,6 @@ figcaption{
     grid-template-columns: 1fr;
     gap: 10px;
     justify-items: center;
-    border-radius: 0;
 
 }
 @media screen and (min-width: 772px) {
@@ -73,7 +72,7 @@ figcaption{
 
 @media screen and (min-width: 992px) {
 
-   figure {
+   .grid figure, .grid figure img{
         border-radius: 0;
     }
 
